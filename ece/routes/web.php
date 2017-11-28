@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/usuarios', function(){
+	return view('pacientes/index');
+});
